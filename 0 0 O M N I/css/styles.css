@@ -1,0 +1,334 @@
+/* Global styles
+------------------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    background-color: #DCDCDC;
+	background-image: url("../images/garden-main.jpg");
+	background-repeat: no-repeat;
+	background-size: 85.7em 50em;
+    margin: 0;
+}
+
+img{
+	width: 55em;
+	height: 40em;
+	margin-left: 15em;
+	position: absolute;
+}
+
+#ig{
+	width: 85.7em;
+	height: 50em;
+	position: absolute;
+}
+
+#exp{
+	cursor: pointer;
+}
+
+/* Navigation
+-------------------------*/
+nav {
+    text-align: center;
+    background: #f2f2f2;
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    background-color: #D3D3D3;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #D3D3D3;
+    color: #BDB76B;
+}
+
+nav a.active {
+    background-color: #D3D3D3;
+    margin-left: 0.3em;
+    color: white;
+}
+
+.search-container{
+    margin-bottom: 1em;
+    margin-right: 3em;
+}
+
+
+nav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+nav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+a {
+    color: #696969;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+.container h2{
+   font-weight: 100;
+   color: #BDB76B;
+
+}
+.container {
+    margin-top: 10px;
+    text-align: center;
+    height: 25em;
+    position: relative;
+}
+
+p{
+	padding-left: 5em;
+}
+
+.logo-img {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+
+}
+
+.main{
+
+    margin: auto;
+    width: 83%;
+    /*padding: 2px;*/
+    border: 1px solid #FFFFFF;
+	margin-left: 1em;
+}
+
+#main1{
+	width: 83%;
+	height: 55%;
+	margin-left: 1em;
+}
+
+#main2{
+	width: 83%;
+	height: 25%;
+	margin-left: 1em;
+}
+
+/*@media only screen and (max-width: 700px){
+    .main {
+    width: 100%;
+    margin: 4px 0;
+
+    }
+}*/
+
+#conn {
+
+font-size: 20px;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: -40px;
+    text-align: left;
+
+}
+
+
+.content-wrap {
+    position: absolute;
+	left: 26em;
+	top: 45em;
+    max-width: 950px;
+    text-align: center;
+    margin: 10 auto;
+    padding: 50px;
+  
+}
+
+hr{
+	position: absolute;
+	left: 0em;
+	top: 25em;
+}
+
+.col-narrow{
+	width: 5%;
+	float: left;
+	min-height: 5px;
+
+}
+.col-wide{
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+    min-height: 15px;
+}
+
+
+.uq{
+	margin-top: 4em;
+	margin-left: 6em;
+	position:absolute;
+}
+
+.igs{
+	position:absolute;
+}
+
+#i1{
+	top: 38em;
+	left: 5em;
+}
+
+#i2{
+	top: 38em;
+	left: 24em;
+}
+
+#i3{
+	top: 34em;
+	left: 37.5em;
+}
+
+#i4{
+	top: 38em;
+	left: 63em;
+}
+
+#i5{
+	top: 68em;
+	left: 5em;
+}
+
+#i6{
+	top: 68em;
+	left: 24em;
+}
+
+#i7{
+	top: 64em;
+	left: 37.5em;
+}
+
+#i8{
+	top: 68em;
+	left: 63em;
+}
+
+#i9{
+	top: 98em;
+	left: 5em;
+}
+
+#i10{
+	top: 98em;
+	left: 24em;
+}
+
+#i11{
+	top: 94em;
+	left: 37.5em;
+}
+
+#i12{
+	top: 98em;
+	left: 63em;
+}
+
+/* Header & Footer
+------------------------------------*/
+
+
+footer {
+
+  color: #BDB76B;
+}
+
+/* Footer styles only */
+footer {
+  height: 10em;
+  text-align: center;
+
+}
+.contact-info a {
+  padding: 1em;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+div.gallery img {
+    width: 12em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #F5F5F5;
+
+}
+
+
+/* Media Queries
+----------------------- */
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+.desc, p{
+  font-family: 'Karma', serif;
+  font-size: 14px;
+  color: #8D99AE;
+
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}

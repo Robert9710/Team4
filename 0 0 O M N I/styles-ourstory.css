@@ -1,0 +1,261 @@
+
+/* Global styles
+------------------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  background: #DCDCDC;
+  margin: 0;
+}
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: #f2f2f2;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+nav {
+  padding: 0.1em;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #D3D3D3;
+}
+
+
+nav a:hover {
+  background-color: #D3D3D3;
+  color: #BDB76B;
+}
+
+nav a.active {
+  background-color: #D3D3D3;
+  margin-left: 0.3em;
+  color: white;
+}
+
+.search-container{
+  margin-bottom: 1em;
+  margin-right: 3em;
+}
+
+
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+nav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+color: #696969;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.container h2{
+  font-weight: 100;
+  color: #BDB76B;
+}
+.container {
+  margin-top: 10px;
+  text-align: center;
+  height: 48em;
+  position: relative;
+}
+
+
+.logo-img {
+  height: 70px;
+  width: auto;
+  margin: auto;
+
+}
+
+.main-pic{
+    margin: auto;
+    width: 88%;
+    padding: 2px;
+    border: 1px solid #A9A9A9;
+}
+
+.entry-content{
+  margin: auto;
+  width: 88%;
+  padding: 2px;
+  position: relative;
+  text-align: justify;
+}
+
+
+
+
+
+h4 {
+  font-family: 'Karma', serif;
+  font-size: 14px;
+  color: #8D99AE;
+}
+
+
+
+.content-wrap-ourstory {
+  max-width: 950px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px;
+
+
+}
+
+.col-narrow{
+	width: 5%;
+	float: left;
+	min-height: 5px;
+
+
+}
+.col-wide{
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+  min-height: 25px;
+}
+
+
+/* Header & Footer
+------------------------------------*/
+
+
+footer {
+
+  color: #BDB76B;
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+
+}
+.contact-info-ourstory a {
+  padding: 1em;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+div.gallery img {
+    width: 10em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 1px;
+    padding: 0 6px;
+    float: left;
+    width: 14.99999%;
+
+}
+
+@media (min-width: 900px) {
+
+  .col-narrow {
+    width: 30%;
+    float: left;
+
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+
+  }
+
+}
+
+@media (max-width:899px) {
+
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 180px;
+  }
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.desc, p{
+  font-family: "Lucida Bright", Georgia, serif;
+  font-size: 14px;
+  color: #8D99AE;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.inline-block{
+  margin-left: 85px;
+  margin-right: 85px;
+}

@@ -1,0 +1,48 @@
+.log {
+font-weight: 100;
+   color: #BDB76B;
+
+}
+
+.contact-info a {
+  padding: 1em;
+  display: inline-block;
+  margin: 0 auto;
+font-size: 14px;
+}
+
+
+.loginForm, .log {
+  margin: 20px 20px;
+  color: #696969;
+  font-weight: 600;
+}
+
+
+.footer {
+  margin-top: 200px;
+ text-align: center;
+   position: relative;
+}
+
+.omni1, .omni2 {
+
+color: #BDB76B;
+
+}
+
+.omni1, .omni2  {
+
+margin-top: 15px;
+
+}
+
+.omni2  {
+
+margin-bottom: 40px;
+
+}
+
+
+
+
